@@ -12,9 +12,9 @@ function App() {
                         </div>
                         <nav className="menu__body">
                             <ul className="menu__list">
-                                <li><a href="" className="menu__link">Раздел №1</a></li>
-                                <li><a href="" className="menu__link">Раздел №2</a></li>
-                                <li><a href="" className="menu__link">Раздел №3</a></li>
+                                <li><a data-goto=".page__section_1" href="#" className="menu__link">Раздел №1</a></li>
+                                <li><a data-goto=".page__section_2" href="#" className="menu__link">Раздел №2</a></li>
+                                <li><a data-goto=".page__section_3" href="#" className="menu__link">Раздел №3</a></li>
                                 <li>
                                     <a href="" className="menu__link">Страница №1</a>
                                     <span className="menu__arrow"></span>
