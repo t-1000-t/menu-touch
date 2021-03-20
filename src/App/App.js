@@ -1,14 +1,6 @@
 import './App.css';
-import isMobile from "../services/isMobile";
 
 function App() {
-
-    if (isMobile.any()) {
-        document.body.classList.add('_touch');
-    } else {
-        document.body.classList.add('_pc');
-    }
-
     return (
         <>
             <header className="header">
